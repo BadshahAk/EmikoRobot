@@ -83,9 +83,9 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+✪ 𝙸'𝚖 𝙲𝚄𝚃𝙴 𝙱𝙰𝙱𝚈 𝚋𝚘𝚝💞 [✨](https://te.legra.ph/file/4890bf4001cd72ecbd604.jpg)
 ────────────────────────
-× *Uptime:* `{}`
+× *Uptime:* `{}`ᴮᴼᴿᴺ ᵀⁱᵐᵉ💫
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
 ✪ Hit /help to see my available commands.
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="💓 ᴵⁿᵛⁱᵗᵉ ᴬⁿˢⁱ ⁱⁿ ᵒᵘʳ ᴳʳᵒᵘᵖ💓", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -113,8 +113,10 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @excrybaby \
- Supporting isnt always financial! \
+ You can support the project by contacting  \[💖](https://te.legra.ph/file/67a563084f0123194210f.jpg)
+ if you want donate me... come to 
+dm https://t.me/pandit_Andy
+my UPI - andyak1294@axl! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -382,9 +384,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Support", callback_data="emiko_support"),
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
-                 [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/kennedy-ex/EmikoRobot"),
-                 ],
+                 
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="source_back"),
                  ]
@@ -428,8 +428,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/Chatting_bar"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/ansi_update"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -451,22 +451,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
                     InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
                  ],
-                 [
-                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
-                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
-                 ],
+                 
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
                  ]
