@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Support", callback_data="emiko_support"),
-                    InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
+                    
                  ],
                  
                  [
